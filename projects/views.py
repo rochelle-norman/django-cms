@@ -4,10 +4,10 @@ from django.http import HttpResponse
 # Create your views here.
 
 def home(request):
-    return HttpResponse("This is the homepage.")
+    return render(request, "home.html")
 
 def about(request):
-    return HttpResponse("This is the aboutpage.")
+    return render(request, "about.html")
 
 def availability(request):
-    return HttpResponse("I have no availability right now")
+    return render(request, "availability.html")
