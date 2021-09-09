@@ -5,6 +5,7 @@
 * `virtualenv env` - Create a virtual environment
 * `source env/bin/activate` - Start the virtual environment
 * `pip install -r requirements.txt` - Install all requirements
+* `python manage.py makemigrations` - Run local migrations
 * `python manage.py migrate` - Run database migrations
 * `python manage.py createsuperuser` - Load the admin user,
 * `python manage.py runserver` - Start the local development server
